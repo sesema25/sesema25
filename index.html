@@ -1,59 +1,135 @@
 git <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Sesema Limbu - Portfolio</title>
+    <title>My Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100 text-gray-800">
-    <header class="bg-blue-700 text-white p-6">
-        <div class="container mx-auto text-center">
-            <h1 class="text-4xl font-bold">Sesema Limbu</h1>
-            <p class="text-lg">Bachelor IT Student | Aspiring Software Engineer</p>
-            <p class="text-sm">Studying at MIT, Kathmandu</p>
+
+<body class="bg-gradient-to-r from-pink-100 via-purple-100 to-blue-100 text-gray-900">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-lg">
+        <div class="container mx-auto p-6 text-center">
+            <h1 class="text-4xl font-extrabold tracking-wider">Sesema Limbu</h1>
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Profile Section</title>
+                <style>
+                    .profile {
+                        text-align: center;
+                        margin: 50px;
+                    }
+                    .profile img {
+                        border-radius: 50%;
+                        width: 150px;
+                        height: 150px;
+                        object-fit: cover;
+                    }
+                    .profile h2 {
+                        font-size: 24px;
+                        margin-top: 10px;
+                    }
+                    .profile p {
+                        font-size: 16px;
+                        color: #555;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="profile">
+                    <img src="c:\Users\sesema\Desktop\450072339_1020958303005536_6699450212043784337_n.jpg" alt="Profile Picture">
+                    
+                </div>
+            </body>
+            <p class="text-xl mt-2">Web Developer | Design Student | BIT Student</p>
         </div>
     </header>
-
-    <section class="container mx-auto mt-10 p-6 bg-white shadow-lg rounded-lg">
-        <h2 class="text-2xl font-bold mb-4">About Me</h2>
-        <p class="text-lg mb-4">
-            I am Sesema Limbu, currently pursuing a Bachelor's degree in Information Technology. My passion lies in software engineering, and I am committed to becoming a skilled software engineer. My temporary address is in Dhumbari, Kathmandu, and I am studying at MIT, Kathmandu.
-        </p>
-        <p class="text-lg">
-            Contact me at: <strong>9746493748</strong>
+    <!-- About Section -->
+    <section class="container mx-auto p-8 mt-8 bg-white shadow-2xl rounded-lg transform transition hover:-translate-y-2">
+        <h2 class="text-3xl font-bold mb-6 text-purple-700 border-b-2 border-purple-300 inline-block">About Me</h2>
+        <p class="leading-relaxed text-lg">
+            I am an enthusiastic web developer with a strong background in creating responsive and intuitive websites. My expertise includes HTML, CSS, JavaScript, and popular frameworks like Tailwind CSS and Bootstrap. I am also skilled in using Git for version control and have a solid grasp of building dynamic web applications with React. Continuously driven to learn new technologies, I strive to enhance my abilities and deliver top-notch solutions that improve user experiences.
         </p>
     </section>
 
-    <section class="container mx-auto mt-10 p-6 bg-white shadow-lg rounded-lg">
-        <h2 class="text-2xl font-bold mb-4">Skills</h2>
-        <ul class="list-disc list-inside">
-            <li>Programming Languages: Java, Python, C++</li>
-            <li>Web Development: HTML, CSS, JavaScript, Tailwind CSS</li>
-            <li>Database Management: MySQL, PostgreSQL</li>
-            <li>Software Development: Agile Methodology, Version Control (Git)</li>
+    <!-- Education Section -->
+    <section class="container mx-auto p-8 mt-8 bg-white shadow-2xl rounded-lg transform transition hover:-translate-y-2">
+        <h2 class="text-3xl font-semibold mb-6 text-green-700 border-b-2 border-green-300 inline-block">
+            <i class="fas fa-graduation-cap mr-2"></i>Education</h2>
+        <ul class="space-y-4 text-lg text-gray-800">
+            <li>
+                <p class="font-medium">School Life</p>
+                <p>Asian Public School, 2021</p>
+            </li>
+            <li>
+                <p class="font-medium">High School (+2)</p>
+                <p>Trinity Intl. SS College, Dillibazar</p>
+            </li>
+            <li>
+                <p class="font-medium">Bachelor of Information Technology</p>
+                <p>MIT, Bag Bazar, Kathmandu</p>
+                <p>Expected Graduation: 2027 (Now Undergraduate)</p>
+            </li>
         </ul>
-    <section class="container mx-auto mt-10 p-6 bg-white shadow-lg rounded-lg">
-        <h2 class="text-2xl font-bold mb-4">Projects</h2>
-        <ul class="list-disc list-inside">
-            <li>Online Bookstore Website - Developed a fully functional e-commerce website using HTML, CSS, JavaScript, and MySQL.</li>
-            <li>Library Management System - Created a software system to manage library operations using Java and MySQL.</li>
-            <li>Personal Portfolio Website - Designed and developed a responsive personal portfolio using Tailwind CSS.</li>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section class="container mx-auto p-8 mt-8 bg-white shadow-2xl rounded-lg transform transition hover:-translate-y-2">
+        <h2 class="text-3xl font-semibold mb-6 text-red-700 border-b-2 border-red-300 inline-block">
+            <i class="fas fa-heart mr-2"></i>Hobbies</h2>
+        <ul class="space-y-3 text-lg text-gray-800">
+            <li>Dancing</li>
+            <li>Singing</li>
+            <li>✈ Travelling and Nature Lovers</li>
         </ul>
     </section>
-    <img id="myImage" src="original-image.jpg" alt="Original image" title="Original image">
-    button id="changeButton">Change Image</button>
-    <section class="container mx-auto mt-10 p-6 bg-white shadow-lg rounded-lg">
-        <h2 class="text-2xl font-bold mb-4">Contact</h2>
+
+    <!-- Skills Section -->
+    <section class="container mx-auto p-8 mt-8 bg-white shadow-2xl rounded-lg transform transition hover:-translate-y-2">
+        <h2 class="text-3xl font-bold mb-6 text-blue-700 border-b-2 border-blue-300 inline-block">Skills</h2>
+        <ul class="list-disc list-inside space-y-3 text-lg text-gray-800">
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Tailwind CSS</li>
+            <li>Bootstrap</li>
+            <li>GitHub</li>
+        </ul>
+    </section>
+
+    <!-- Career Section -->
+    <section class="container mx-auto p-8 mt-8 bg-white shadow-2xl rounded-lg transform transition hover:-translate-y-2">
+        <h2 class="text-3xl font-bold mb-6 text-purple-700 border-b-2 border-purple-300 inline-block">Career</h2>
+        <div class="bg-gray-100 p-6 rounded-lg shadow-inner">
+            <h3 class="font-bold text-2xl mb-2">Career Objectives</h3>
+            <p class="leading-relaxed text-lg">
+                I am eager to blend my passion for animation and cultural exploration with my unique skill set in coding and dancing. Whether it's creating dynamic web applications or captivating audiences with my dance moves, I thrive on creativity and precision. My goal is to produce engaging content that resonates with diverse cultures worldwide.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="container mx-auto p-8 mt-8 bg-white shadow-2xl rounded-lg transform transition hover:-translate-y-2">
+        <h2 class="text-3xl font-bold mb-6 text-blue-700 border-b-2 border-blue-300 inline-block">Contact</h2>
         <p class="text-lg">
-            Feel free to reach out to me for any queries or collaborations. You can contact me at <strong>9746493748</strong> or email me at <a href="mailto:Sesema@example.com" class="text-blue-600">Sesema@example.com</a>.
+            If you would like to get in touch, please email me at
+            <a href="mailto:aishdevkota6@gmail.com" class="text-blue-600 hover:underline">sesema2325limbu@gmail.com</a>.
         </p>
     </section>
 
-    <footer class="bg-gray-800 text-white p-4 text-center mt-10">
-        <p>&copy; 2024  Sesema Limbu. All rights reserved.</p>
+    <!-- Footer -->
+    <footer class="bg-purple-800 text-white p-6 mt-8 shadow-inner">
+        <div class="container mx-auto text-center">
+            &copy; 2024 Sesema Limbu | All Rights Reserved
+        </div>
     </footer>
+
 </body>
+
 </html>
+
 
 
